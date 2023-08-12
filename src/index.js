@@ -28,7 +28,7 @@ root.render(
       }}
     > */}
       <Provider store={store}>
-      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? process.env.BASENAME_PROD : process.env.BASENAME}>
+      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}>
         <App />
       </BrowserRouter>
       </Provider>
