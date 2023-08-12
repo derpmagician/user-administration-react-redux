@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/user-administration-react-redux/static/css/main.073c9b0a.css",
-    "main.js": "/user-administration-react-redux/static/js/main.a01b0350.js",
-    "static/js/787.6ac3cf16.chunk.js": "/user-administration-react-redux/static/js/787.6ac3cf16.chunk.js",
-    "static/media/logo.svg": "/user-administration-react-redux/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/user-administration-react-redux/static/css/main.087657ad.css",
+    "main.js": "/user-administration-react-redux/static/js/main.dd31e5b8.js",
     "index.html": "/user-administration-react-redux/index.html",
-    "main.073c9b0a.css.map": "/user-administration-react-redux/static/css/main.073c9b0a.css.map",
-    "main.a01b0350.js.map": "/user-administration-react-redux/static/js/main.a01b0350.js.map",
-    "787.6ac3cf16.chunk.js.map": "/user-administration-react-redux/static/js/787.6ac3cf16.chunk.js.map"
+    "main.087657ad.css.map": "/user-administration-react-redux/static/css/main.087657ad.css.map",
+    "main.dd31e5b8.js.map": "/user-administration-react-redux/static/js/main.dd31e5b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.a01b0350.js"
+    "static/css/main.087657ad.css",
+    "static/js/main.dd31e5b8.js"
   ]
 }
