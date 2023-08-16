@@ -39,7 +39,7 @@ function App() {
 
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}
-        <Route path="/" element={<Listado />} />
+        <Route path="/" element={<Gestion />} />
         {/* <Route path="/about" element={<About />} /> */}
         {/* <Route path="/blogposts" element={<BlogPosts />} /> */}
         {/* <Route path="/dashboard" element={<Dashboard />} /> */}

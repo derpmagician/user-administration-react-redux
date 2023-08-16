@@ -27,7 +27,7 @@ const Gestion = () => {
   return (
     <>
     <h1>Trabajadores:</h1>
-    <Link to="/">
+    <Link to="/listado">
       <button>
         Candidatos
       </button>

@@ -1,11 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from 'react-router-dom';
+import { useAuth0 } from '@auth0/auth0-react';
 import { Menubar } from 'primereact/menubar';
 import { Button } from 'primereact/button';
-import { Calendar } from 'primereact/calendar';
+// import { Calendar } from 'primereact/calendar';
 
 const Navbar = () => {
-  const [date, setDate] = useState(null);
+  // const [date, setDate] = useState(null);
+  const { loginWithRedirect, isAuthenticated, logout } = useAuth0();
+
   
   const navigate = useNavigate();
   const handleNavigation = (route) => {
@@ -23,7 +26,7 @@ const Navbar = () => {
       label: "Trabajadores",
       className: "about-item",
       command: () => {
-        handleNavigation('/gestion');
+        handleNavigation('/');
       },
     },
     {
@@ -70,13 +73,13 @@ const Navbar = () => {
   );
   const end = (
     <>
-    <div className="card flex justify-content-center">
+    {/* <div className="card flex justify-content-center">
       <Calendar value={date} onChange={(e) => setDate(e.value)} showIcon />
-    </div>
+    </div> */}
     {/* <Button label="" type="text" className="" icon="pi pi-calendar"  /> */}
 
-    {/* {
-    // isAuthenticated ?
+    {
+    isAuthenticated ?
     <Button label="Logout" className=""
       onClick={() => { logout({ returnTo: window.location.origin }) }}
     />
@@ -84,7 +87,7 @@ const Navbar = () => {
     <Button label="Login" className=""
       onClick={() =>{ loginWithRedirect()} }
     />
-    } */}
+    }
     </>
   );
 

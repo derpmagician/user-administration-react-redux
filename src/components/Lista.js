@@ -70,7 +70,7 @@ const Lista = () => {
     <hr/>
     <div className='candidatos'>
       {listaTrabajadores.map((candidato, i) => (
-        <Link to="/gestion" key={i} >
+        <Link to="/" key={i} >
           <button >{candidato.name.first}</button>
           </Link>
       ))}
