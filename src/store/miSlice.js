@@ -36,7 +36,7 @@ export const miSlice = createSlice({
 export const dptosSlice = createSlice({
   name: "misDptos",
   initialState: {
-    departamentos: ["Africa", "America", "Asia"],
+    departamentos: ["Africa", "America", "Asia", "Europa", "Oceania", "Antartida"],
   },
   reducers: {
   }

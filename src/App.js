@@ -11,7 +11,7 @@ import Listado from "./pages/Listado";
 import Gestion from "./pages/Gestion";
 
 // import ManageFiles from "./pages/ManageFiles";
-// import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar";
 // import Preferences from './pages/Preferences';
 // import Users from './pages/Users';
 // import User from './pages/User';
@@ -35,9 +35,7 @@ function App() {
   // }
   return (
     <div className="App">
-      {/* <Navbar /> */}
-
-      
+      <Navbar />
 
       <Routes>
         {/* <Route path="/" element={<Home />} /> */}

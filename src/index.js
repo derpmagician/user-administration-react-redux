@@ -8,9 +8,9 @@ import { Provider } from "react-redux";
 import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
-// import "primereact/resources/themes/lara-light-indigo/theme.css";
-// import "primereact/resources/primereact.min.css";
-// import 'primeicons/primeicons.css';
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.min.css";
+import 'primeicons/primeicons.css';
 // import 'primeflex/primeflex.css';
 
 // console.log("ENV", process.env.REACT_APP_AUTH0_DOMAIN);
@@ -29,6 +29,7 @@ root.render(
     > */}
       <Provider store={store}>
       <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}>
+      {/* <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : "/"}> */}
         <App />
       </BrowserRouter>
       </Provider>
