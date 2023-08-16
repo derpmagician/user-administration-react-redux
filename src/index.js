@@ -13,7 +13,7 @@ import "primereact/resources/primereact.min.css";
 import 'primeicons/primeicons.css';
 // import 'primeflex/primeflex.css';
 
-console.log("ENV", process.env);
+console.log("ENV=>", process.env);
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
 
