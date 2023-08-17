@@ -15,6 +15,7 @@ import 'primeicons/primeicons.css';
 // console.log("ENV=>", process.env);
 const domain = process.env.REACT_APP_AUTH0_DOMAIN;
 const clientId = process.env.REACT_APP_AUTH0_CLIENT_ID;
+const redirigir =  process.env.NODE_ENV === 'production' ? "https://derpmagician.github.io/user-administration-react-redux/" : window.location.origin
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,8 @@ root.render(
       domain={domain}
       clientId={clientId}
       authorizationParams={{
-        redirect_uri: window.location.origin
+        // redirect_uri: window.location.origin
+        redirect_uri: redirigir
       }}
     >
       <Provider store={store}>
