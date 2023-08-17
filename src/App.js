@@ -12,6 +12,7 @@ import Gestion from "./pages/Gestion";
 
 // import ManageFiles from "./pages/ManageFiles";
 import Navbar from "./components/Navbar";
+import NotFound from './pages/NotFound';
 // import Preferences from './pages/Preferences';
 // import Users from './pages/Users';
 // import User from './pages/User';
@@ -55,7 +56,7 @@ function App() {
         {/* <Route path="/login" element={<Login />} /> */}
         {/* <Route path="/logout" element={<Logout />} /> */}
         {/* <Route path="/preferences" element={<Preferences />} /> */}
-
+        <Route component={NotFound} />
       </Routes>
     </div>
   );

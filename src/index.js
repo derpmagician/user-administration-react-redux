@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Auth0Provider } from '@auth0/auth0-react';
-import { BrowserRouter,
-} from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 import store from "./store/store";
 import { Provider } from "react-redux";
 import './index.css';
@@ -28,10 +27,12 @@ root.render(
       }}
     >
       <Provider store={store}>
-      <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}>
-      {/* <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : "/"}> */}
-        <App />
-      </BrowserRouter>
+        <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}>
+        {/* <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : "/"}> */}
+          <HashRouter>
+            <App />
+          </HashRouter>
+        </BrowserRouter>
       </Provider>
     
     </Auth0Provider>
