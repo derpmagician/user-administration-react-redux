@@ -6,6 +6,9 @@ const Listado = () => {
 
   return (
     <>
+    {
+    isAuthenticated ? <div>yes</div> : <div>no</div>
+    }
     {/* {isAuthenticated ? */}
     <Lista />
     {/* : */}
