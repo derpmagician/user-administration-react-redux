@@ -27,8 +27,9 @@ root.render(
       }}
     >
       <Provider store={store}>
-      <HashRouter  basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}>
+      {/* <HashRouter  basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : process.env.BASENAME}> */}
       {/* <BrowserRouter basename={process.env.NODE_ENV === 'production' ? "/user-administration-react-redux" : "/"}> */}
+      <HashRouter>
         <App />
       </HashRouter >
       </Provider>
