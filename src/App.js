@@ -9,10 +9,11 @@ import { Route, Routes } from 'react-router-dom';
 // import Candidato from "./components/Candidato";
 import Listado from "./pages/Listado";
 import Gestion from "./pages/Gestion";
+import NotFound from "./pages/NotFound";
+
 
 // import ManageFiles from "./pages/ManageFiles";
 import Navbar from "./components/Navbar";
-import NotFound from './pages/NotFound';
 // import Preferences from './pages/Preferences';
 // import Users from './pages/Users';
 // import User from './pages/User';
@@ -56,7 +57,7 @@ function App() {
         {/* <Route path="/login" element={<Login />} /> */}
         {/* <Route path="/logout" element={<Logout />} /> */}
         {/* <Route path="/preferences" element={<Preferences />} /> */}
-        <Route component={NotFound} />
+        <Route component={<NotFound />} />
       </Routes>
     </div>
   );
