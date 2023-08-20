@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/user-administration-react-redux/static/css/main.143ff126.css",
-    "main.js": "/user-administration-react-redux/static/js/main.b6e663f1.js",
+    "main.js": "/user-administration-react-redux/static/js/main.a07384ed.js",
     "static/media/primeicons.svg": "/user-administration-react-redux/static/media/primeicons.e1441b135b3ca9ad643c.svg",
     "static/media/primeicons.eot": "/user-administration-react-redux/static/media/primeicons.d44157bdfa026dc877af.eot",
     "static/media/primeicons.woff": "/user-administration-react-redux/static/media/primeicons.10d3152104f2208ac82a.woff",
@@ -10,10 +10,10 @@
     "static/media/color.png": "/user-administration-react-redux/static/media/color.6441e63a57ccc5105bad.png",
     "index.html": "/user-administration-react-redux/index.html",
     "main.143ff126.css.map": "/user-administration-react-redux/static/css/main.143ff126.css.map",
-    "main.b6e663f1.js.map": "/user-administration-react-redux/static/js/main.b6e663f1.js.map"
+    "main.a07384ed.js.map": "/user-administration-react-redux/static/js/main.a07384ed.js.map"
   },
   "entrypoints": [
     "static/css/main.143ff126.css",
-    "static/js/main.b6e663f1.js"
+    "static/js/main.a07384ed.js"
   ]
 }
