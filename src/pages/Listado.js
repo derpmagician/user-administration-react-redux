@@ -6,13 +6,14 @@ const Listado = () => {
 
   return (
     <>
-    {
+    {/* {
     isAuthenticated ? <div>yes</div> : <div>no</div>
-    }
-    {/* {isAuthenticated ? */}
+    } */}
+    {isAuthenticated ?
     <Lista />
-    {/* : */}
-    {/* <div>Solo un usuario autenticado puede ver la lista.</div>} */}
+    :
+    <div>Solo un usuario autenticado puede ver la lista.</div>
+    }
     
     </>
   )
