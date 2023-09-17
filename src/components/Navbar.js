@@ -15,13 +15,13 @@ const Navbar = () => {
     navigate(route);
   };
   const items = [
-    {
-      label: "React Page",
-      command: () => {
-        // window.location.href = 'https://reactjs.org/'// Misma pestaña
-        window.open('https://reactjs.org/', '_blank'); //Nueva pestaña
-      },
-    },
+    // {
+    //   label: "React Page",
+    //   command: () => {
+    //     // window.location.href = 'https://reactjs.org/'// Misma pestaña
+    //     window.open('https://reactjs.org/', '_blank'); //Nueva pestaña
+    //   },
+    // },
     {
       label: "Trabajadores",
       className: "about-item",
