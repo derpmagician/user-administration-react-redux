@@ -28,8 +28,8 @@ const Gestion = () => {
     <>
     <h1>Trabajadores:</h1>
     <Link to="/listado">
-      <button>
-        Candidatos
+      <button className='regreso'>
+        Ver Candidatos
       </button>
     </Link>
     <div  className='usuarios'>
