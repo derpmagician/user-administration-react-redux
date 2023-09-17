@@ -28,7 +28,7 @@ const Gestion = () => {
     <>
     <h1>Trabajadores:</h1>
     <Link to="/listado">
-      <button className='btn btn-primary'>
+      <button>
         Candidatos
       </button>
     </Link>
