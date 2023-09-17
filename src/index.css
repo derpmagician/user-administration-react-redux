@@ -26,13 +26,11 @@ a {
   align-items: center;
   padding: 10px 15px;
   border-radius: 4px;
-  /* border: 1px dotted black; */
   box-sizing: border-box;
   width: 49.5%;
   margin: 3px 0;
 }
 .foto {
-  /* border: 1px solid gray; */
   border-radius: 5px;
   overflow: hidden;
   margin-right: 20px;
